@@ -1,4 +1,5 @@
-const defaultTheme = require('tailwindgit add README.mdcss/defaultTheme');
+// const defaultTheme = require('tailwindgit add README.mdcss/defaultTheme');
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -16,5 +17,5 @@ module.exports = {
         },
     },
 
-    plugins: [require('@tailwindcss/forms')],
+    plugins: [require('@tailwindcss/forms', 'daisyui')],
 };
